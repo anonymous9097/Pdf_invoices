@@ -3,7 +3,7 @@ import glob
 from fpdf import FPDF
 from pathlib import Path
 
-filepaths = glob.glob(pathname="Invoices/*xlsx")
+filepaths = glob.glob(pathname="Invoices/*.xlsx")
 
 for filepath in filepaths:
 
